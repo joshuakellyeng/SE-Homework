@@ -46,6 +46,8 @@ body {
 
 h3 {
 	color: #f72585;
+	text-align: center;
+	padding: 1em;
 }
 
 p {
@@ -57,9 +59,9 @@ p {
 }
 
 img {
-	margin: 3em;
-	max-width: 200px;
-	border-radius: 50%;
+	margin: 2em;
+	max-width: 500px;
+	border-radius: 20px;
 }
 
 table,
@@ -77,10 +79,6 @@ td {
 	padding: 10px;
 	width: 15%;
 	color: #f72585;
-}
-
-iframe {
-	padding-bottom: 1rem;
 }
 
 a {
@@ -112,6 +110,74 @@ h1 {
 h5 {
 	padding: 2rem;
 }
+
+iframe{
+	padding-bottom: 2em;
+}
+
+label:hover {
+	cursor: pointer;
+}
+
+form {
+	max-width: 80%;
+}
+
+.genres {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.gp1,
+.gp2 {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	flex: 1 1 50%;
+}
+
+label {
+	flex: 1;
+}
+
+input {
+	margin: 1em;
+}
+
+input[type='text'] {
+	width: 100%;
+	padding: 0.5em;
+	border-radius: 15px;
+	transition: ease-in-out 300ms;
+}
+
+input[type='text']:focus {
+	background-color: #4cc9f0;
+	color: white;
+	font-weight: bold;
+	border-color: #f72585;
+}
+
+input[type='submit'] {
+	width: 100%;
+	padding: 1em;
+	border-radius: 30px;
+	font-weight: bold;
+	font-size: 15px;
+	letter-spacing: 2em;
+	text-shadow: 2px 2px 2px #FFFFFF;
+	background-color: #f72585;
+	color: #4cc9f0;
+	text-transform: uppercase;
+	transition: ease-in-out 300ms;
+}
+
+input[type='submit']:hover {
+	background-color: #4cc9f0;
+	color: #f72585;
+}
+
 
 .footer {
 	padding: 2rem;
