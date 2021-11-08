@@ -23,6 +23,7 @@ body {
 	flex-direction: column;
 	align-items: center;
 	background-color: rgba(255, 255, 255, 0.8);
+	border-radius: 10px;
 }
 
 .nav-bar {
@@ -30,6 +31,10 @@ body {
 	flex-direction: column;
 	align-items: center;
 	padding: 2rem;
+	background-color: #4cc9f0;
+	width: 80vw;
+	position: sticky;
+	position: -webkit-sticky;
 }
 
 #first {
@@ -52,6 +57,7 @@ p {
 }
 
 img {
+	margin: 3em;
 	max-width: 200px;
 	border-radius: 50%;
 }
@@ -81,6 +87,7 @@ a {
 	text-decoration: none;
 	color: #f72585;
 	transition: ease-in-out 500ms;
+	margin: 1.5em;
 }
 
 a:hover {
